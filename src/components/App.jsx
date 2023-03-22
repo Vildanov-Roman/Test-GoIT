@@ -1,11 +1,10 @@
-import TopPart from './TopPart'
-import BottomPart from './BottomPart'
+import UserList from './UserList'
+import users from '../json/users.json';
 
 export const App = () => {
   return (
     <div>
-     <TopPart/>
-     <BottomPart/>
+     <UserList users={users}/>
     </div>
   );
 };
