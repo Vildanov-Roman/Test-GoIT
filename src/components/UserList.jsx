@@ -12,5 +12,3 @@ const UserList = ({ users }) => {
 };
 
 export default UserList;
-
-// sd
